@@ -1,0 +1,42 @@
+[
+  {
+    "user_id": "u01",
+    "salario": 5500,
+    "limites": {
+      "aluguel": 1500,
+      "alimentacao": 1000,
+      "saude": 500,
+      "lazer": 400
+    }
+  },
+  {
+    "user_id": "u02",
+    "salario": 1800,
+    "limites": {
+      "aluguel": 850,
+      "alimentacao": 750,
+      "saude": 400,
+      "lazer": 200
+    }
+  },
+  {
+    "user_id": "u03",
+    "salario": 9000,
+    "limites": {
+      "aluguel": 1800,
+      "alimentacao": 1300,
+      "saude": 700,
+      "lazer": 600
+    }
+  },
+  {
+    "user_id": "u04",
+    "salario": 4000,
+    "limites": {
+      "aluguel": 0,
+      "alimentacao": 700,
+      "saude": 400,
+      "lazer": 500
+    }
+  }
+]
