@@ -1,0 +1,13 @@
+user_id,mes,ano,aluguel,alimentacao,saude,lazer,comentario
+u01,2025-01,2025,1200,900,400,300,"Profissional em início de carreira, mora de aluguel"
+u01,2025-02,2025,1200,950,420,280,"Aumento em alimentação, lazer um pouco menor"
+u01,2025-03,2025,1200,880,380,350,"Mais gastos com lazer no mês"
+u02,2025-01,2025,800,700,350,150,"Estudante, divide moradia, orçamento mais apertado"
+u02,2025-02,2025,800,750,360,120,"Ligeiro aumento em alimentação"
+u02,2025-03,2025,800,680,340,180,"Mais lazer no fim de semana"
+u03,2025-01,2025,1500,1100,600,500,"Família com filhos, maior peso em moradia e saúde"
+u03,2025-02,2025,1500,1150,620,450,"Mês com mais gastos em alimentação"
+u03,2025-03,2025,1500,1050,580,520,"Mais lazer (viagem/feriado)"
+u04,2025-01,2025,0,600,300,400,"Mora com familiares, sem aluguel, mais espaço para lazer"
+u04,2025-02,2025,0,650,320,450,"Aumento em alimentação e lazer"
+u04,2025-03,2025,0,620,310,380,"Lazer menor, gastos mais equilibrados"
