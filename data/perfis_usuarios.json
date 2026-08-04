@@ -1,0 +1,46 @@
+[
+  {
+    "user_id": "u01",
+    "nome": "Ana",
+    "idade": 27,
+    "ocupacao": "Desenvolvedora júnior",
+    "renda_mensal": 5500,
+    "cidade": "Belo Horizonte",
+    "prioridades_financeiras": ["guardar para reserva de emergência", "organizar gastos com alimentação"],
+    "sensibilidade_a_risco": "moderada",
+    "comentario_perfil": "Começo de carreira, mora de aluguel, quer equilibrar qualidade de vida e economia."
+  },
+  {
+    "user_id": "u02",
+    "nome": "Bruno",
+    "idade": 22,
+    "ocupacao": "Estudante universitário",
+    "renda_mensal": 1800,
+    "cidade": "Viçosa",
+    "prioridades_financeiras": ["não estourar o limite do cartão", "controlar gasto com lazer"],
+    "sensibilidade_a_risco": "alta",
+    "comentario_perfil": "Orçamento apertado, depende de mesada/bolsa, tende a gastar mais em lazer quando sobra."
+  },
+  {
+    "user_id": "u03",
+    "nome": "Carla",
+    "idade": 35,
+    "ocupacao": "Analista de sistemas",
+    "renda_mensal": 9000,
+    "cidade": "São Paulo",
+    "prioridades_financeiras": ["manter escola e saúde dos filhos em dia", "planejar viagens sem dívidas"],
+    "sensibilidade_a_risco": "baixa",
+    "comentario_perfil": "Família com filhos, alta despesa fixa com moradia, saúde e alimentação."
+  },
+  {
+    "user_id": "u04",
+    "nome": "Diego",
+    "idade": 29,
+    "ocupacao": "Designer freelancer",
+    "renda_mensal": 4000,
+    "cidade": "Rio de Janeiro",
+    "prioridades_financeiras": ["organizar renda variável", "não comprometer lazer"],
+    "sensibilidade_a_risco": "moderada",
+    "comentario_perfil": "Mora com familiares, sem aluguel, mas renda varia mês a mês; tende a aumentar lazer quando a renda sobe."
+  }
+]
