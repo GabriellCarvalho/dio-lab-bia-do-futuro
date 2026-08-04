@@ -1,0 +1,26 @@
+user_id,data,categoria,descricao,valor,meio_pagamento
+u01,2025-01-03,aluguel,Aluguel apartamento,1200,debito
+u01,2025-01-05,alimentacao,Supermercado bairro,350,credito
+u01,2025-01-12,alimentacao,Almoço restaurante,80,credito
+u01,2025-01-20,saude,Consulta médica,250,debito
+u01,2025-01-25,lazer,Streaming e cinema,180,credito
+u01,2025-02-04,alimentacao,Supermercado mês,400,debito
+u01,2025-02-15,lazer,Bar com amigos,200,credito
+
+u02,2025-01-02,aluguel,Quarto república,800,transferencia
+u02,2025-01-06,alimentacao,Restaurante universitário,120,debito
+u02,2025-01-10,alimentacao,Lanchonete campus,45,debito
+u02,2025-01-18,lazer,Cinema,70,credito
+u02,2025-01-22,saude,Remédios farmácia,115,debito
+
+u03,2025-01-01,aluguel,Aluguel casa,1500,debito
+u03,2025-01-07,alimentacao,Supermercado grande,700,debito
+u03,2025-01-14,alimentacao,Compras semanais,250,debito
+u03,2025-01-09,saude,Plano de saúde,400,debito
+u03,2025-01-21,lazer,Viagem fim de semana,300,credito
+
+u04,2025-01-05,alimentacao,Supermercado,400,debito
+u04,2025-01-09,alimentacao,Lanches,80,debito
+u04,2025-01-13,saude,Academia,150,debito
+u04,2025-01-20,lazer,Show,250,credito
+u04,2025-01-27,lazer,Bar,150,credito
