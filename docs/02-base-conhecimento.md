@@ -30,7 +30,7 @@ Carrega os arquivos via código, como o exemplo abaixo:
 import pandas as pd
 import json
 
-perfis_usuarios = json.load(open('./data/perfis_usuarios.json'))
+perfil_usuario = json.load(open('./data/perfis_usuarios.json'))
 limites_orcamento = json.load(open('./data/limites_orcamento.json'))
 gastos_mensais = pd.read_csv('./data/gastos_mensais.csv')
 gastos_detalhados = pd.read_csv('./data/gastos_detalhados.csv')
