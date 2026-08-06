@@ -17,9 +17,6 @@ A avaliação pode ser feita de duas formas complementares:
 | **Segurança** | O agente evitou inventar informações? | Perguntar algo fora do contexto e ele admitir que não sabe |
 | **Coerência** | A resposta faz sentido para o perfil do cliente? | Sugerir investimento conservador para cliente conservador |
 
-> [!TIP]
-> Peça para 3-5 pessoas (amigos, família, colegas) testarem seu agente e avaliarem cada métrica com notas de 1 a 5. Isso torna suas métricas mais confiáveis! Caso use os arquivos da pasta `data`, lembre-se de contextualizar os participantes sobre o **cliente fictício** representado nesses dados.
-
 ---
 
 ## Exemplos de Cenários de Teste
@@ -27,24 +24,24 @@ A avaliação pode ser feita de duas formas complementares:
 Crie testes simples para validar seu agente:
 
 ### Teste 1: Consulta de gastos
-- **Pergunta:** "Quanto gastei com alimentação?"
-- **Resposta esperada:** Valor baseado no `transacoes.csv`
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Pergunta:** "Quanto gastei com alimentação este mês?"
+- **Resposta esperada:** Valor baseado no `gastos_mensais.csv`
+- **Resultado:** [X] Correto  [ ] Incorreto
 
-### Teste 2: Recomendação de produto
-- **Pergunta:** "Qual investimento você recomenda para mim?"
-- **Resposta esperada:** Produto compatível com o perfil do cliente
-- **Resultado:** [ ] Correto  [ ] Incorreto
+### Teste 2: Comparação com limite de orçamento
+- **Pergunta:** "Estourei meu limite de lazer?"
+- **Resposta esperada:** Agente compara gasto atual com limite definido em `limites_orcamento.json` e informa se ultrapassou ou não
+- **Resultado:** [X] Correto  [ ] Incorreto
 
 ### Teste 3: Pergunta fora do escopo
-- **Pergunta:** "Qual a previsão do tempo?"
-- **Resposta esperada:** Agente informa que só trata de finanças
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Pergunta:** "Qual a previsão do tempo amanhã?"
+- **Resposta esperada:** Agente informa que só trata de finanças/gastos e redireciona educadamente
+- **Resultado:** [X] Correto  [ ] Incorreto
 
 ### Teste 4: Informação inexistente
-- **Pergunta:** "Quanto rende o produto XYZ?"
-- **Resposta esperada:** Agente admite não ter essa informação
-- **Resultado:** [ ] Correto  [ ] Incorreto
+- **Pergunta:** "Quanto gastei com viagens internacionais?"
+- **Resposta esperada:** Agente admite que não possui essa informação nos dados e pede apenas o necessário se for relevante
+- **Resultado:** [X] Correto  [ ] Incorreto
 
 ---
 
@@ -53,19 +50,13 @@ Crie testes simples para validar seu agente:
 Após os testes, registre suas conclusões:
 
 **O que funcionou bem:**
-- [Liste aqui]
+- Comparou de forma clara os valores reais com os limites de orçamento definidos.
+- Identificou riscos de estouro de orçamento e destacou a categoria afetada.
+- O agente conseguiu responder corretamente perguntas sobre categorias de gastos.
 
 **O que pode melhorar:**
-- [Liste aqui]
+- Melhorar a clareza quando os dados estão incompletos, pedindo apenas a informação necessária.
+- Em alguns casos, o tempo de resposta foi maior do que o esperado.
+- Melhorar o contexto.
 
 ---
-
-## Métricas Avançadas (Opcional)
-
-Para quem quer explorar mais, algumas métricas técnicas de observabilidade também podem fazer parte da sua solução, como:
-
-- Latência e tempo de resposta;
-- Consumo de tokens e custos;
-- Logs e taxa de erros.
-
-Ferramentas especializadas em LLMs, como [LangWatch](https://langwatch.ai/) e [LangFuse](https://langfuse.com/), são exemplos que podem ajudar nesse monitoramento. Entretanto, fique à vontade para usar qualquer outra que você já conheça!
